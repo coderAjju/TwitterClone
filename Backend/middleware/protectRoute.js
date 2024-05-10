@@ -1,7 +1,7 @@
 import User from '../models/user.model.js'
 import jwt from 'jsonwebtoken'
 
-//this middleware function is used to protect routes that require authentication. It verifies the JWT token and checks if the user exists in the database before allowing access to the protected route.
+//this middleware function is used to protect routes that require authentication. It verifies the JWT token and checks if the user exists in the database beforea allowing access to the protected route.
 
 export const protectRoute = async (req,res,next) => {
     try {
